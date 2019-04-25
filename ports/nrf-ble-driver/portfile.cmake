@@ -14,6 +14,8 @@ vcpkg_from_github(
     HEAD_REF master
 )
 
+find_program(GIT NAMES git git.cmd)
+
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA
