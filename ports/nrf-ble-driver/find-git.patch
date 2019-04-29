@@ -1,7 +1,7 @@
-diff --git a/v4.1.0-4ab2640ee7/hex/CMakeLists.txt b/v4.1.0-4ab2640ee7/hex/CMakeLists.txt
+diff --git a/hex/CMakeLists.txt b/hex/CMakeLists.txt
 index ca08a4f..2c3e9e5 100644
---- a/v4.1.0-4ab2640ee7/hex/CMakeLists.txt
-+++ b/v4.1.0-4ab2640ee7/hex/CMakeLists.txt
+--- a/hex/CMakeLists.txt
++++ b/hex/CMakeLists.txt
 @@ -15,7 +15,8 @@ include(./cmake/util.cmake)
  find_program(MAKE "make")
  find_program(MERGEHEX "mergehex" HINTS "c:/Program Files (x86)/Nordic Semiconductor/nrf5x/bin")
