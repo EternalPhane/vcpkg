@@ -20,6 +20,7 @@ vcpkg_apply_patches(
     "${CMAKE_CURRENT_LIST_DIR}/all.patch"
 )
 
+
 string(COMPARE EQUAL ${VCPKG_LIBRARY_LINKAGE} "dynamic" ARROW_BUILD_SHARED)
 string(COMPARE EQUAL ${VCPKG_LIBRARY_LINKAGE} "static" ARROW_BUILD_STATIC)
 
